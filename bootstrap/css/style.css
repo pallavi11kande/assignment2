@@ -1,0 +1,38 @@
+body{
+	background-color: white;
+}
+#navbar{
+	background-color: lightgray;
+	border: 1px solid black;
+}
+.navbar-header h1{
+	font-size: 25px;
+	color: black;
+	margin: 15px 15px;
+}
+a.navbar-brand {
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    background-color: white;
+}
+#content{
+	background-color: lightgray;
+}
+#info h1{
+	margin-bottom: 35px;
+	margin-top: 0px;
+}
+.navbar-default .navbar-toggle
+{
+    border-color: black;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+@media (max-width: 768px){
+	.container-fluid{
+		padding: 0px 40px;
+	}
+}
